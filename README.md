@@ -69,57 +69,65 @@ https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?nod
 ### Built With
 
 * [React.js](https://reactjs.org/)
+* [Sass](https://sass-lang.com/)
 * [Cypress](https://www.cypress.io/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+* Node
+  Download and install in https://nodejs.org/en/
+  
 * npm
   ```sh
-  npm install npm@latest -g
+  npm install npm -g
   ```
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/andrealvesaraujo/Movie-Streaming.git
    ```
-3. Install NPM packages
+   
+2. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
+   
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+1. Run React
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+    ```sh
+    npm start 
+    ```
+    
+2. Test Cypress on UI
 
+    ```sh
+    npx cypress open 
+    ```
+ 
+3. Test Cypress on CLI
+
+    ```sh
+    npm cypress run
+    ```
+    
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 
 ## Roadmap
 
-- [x] Add Cypress Tests
+- [x] Add Cypress Tests to buttons
 - [ ] Add Carrousel of other movies info
 
 See the [open issues](https://github.com/andrealvesaraujo/Movie-Streaming/issues) for a full list of proposed features (and known issues).
@@ -151,8 +159,10 @@ Andre Alves de Araújo - [Linkedin](https://www.linkedin.com/in/andre-alves-arau
 
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
+* [Designer Iuricode](https://www.linkedin.com/in/iuricode/)
 * [Img Shields](https://shields.io)
 * [Font Awesome Icons](https://fontawesome.com/v5.15/how-to-use/on-the-web/using-with/react)
+* [React Modal Video](https://www.npmjs.com/package/react-modal-video)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
